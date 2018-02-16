@@ -1,0 +1,124 @@
+    
+body {
+   background-image: url('./background.jpg');
+   display:cover;
+   font-family: 'Raleway', sans-serif;
+}
+header {
+    top: 20px;
+    position: relative;
+    text-align: center;
+    
+}
+header h1 {
+    font-size: 35pt;
+    letter-spacing:13px;
+}
+header h2 {
+    letter-spacing: 20px;
+}
+header h4 {
+    color: #7495bc;
+    letter-spacing: 2px;
+}
+.table {
+    top: 50px;
+    display: grid;
+    max-width: 1600px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    grid-gap: 10px;
+    grid-template: repeat(10,1fr)/ repeat (16,1fr);
+}
+.info {
+    border-radius: 5px;
+    border: 2px solid #08376e;
+    background: RGBA(255,255,255,0.3);
+    
+}
+.history {
+    grid-area: 1/ 1/ 3/ 3;
+      
+}
+.object {
+    grid-area: 1/3/3/5;
+    
+}
+.learn-the-game {
+    grid-area:3/1/6/5 ;
+    padding-bottom: 10px;
+    
+}
+.tool {
+    grid-area:6/1/8/5;
+    padding-bottom: 10px;
+ }
+ .rule {
+    grid-area:8/1/10/5 ;
+    padding-bottom: 10px;
+}
+ 
+.how-to-play {
+    grid-area: 1/ 10/ 11/ 17;
+ 
+}
+.on-the-course {
+    grid-area: 1/5/11/10;
+} 
+.hide-history   {
+    display: none;
+ 
+}
+#closeicon {
+	width:20%;
+	position: relative;
+}
+.hide-object{
+	display: none;
+}
+.show {
+	width: 300px;
+	display: inline;
+}
+.history img {
+    width: 220px;
+    
+}
+.object h3 {
+    position: relative;
+    top: 20px;
+    letter-spacing: 2px;
+    padding: 5px;
+}
+.rule img {
+    top: 5px;
+    width: 10%;
+    position: relative;
+   
+}
+.tool img {
+    width: 10%;
+    position: relative;
+    top: 5px;
+}
+.learn-the-game img {
+    width: 10%;
+    position: relative;
+    top:5px;
+}
+#icon {
+    width: 40px;
+    position: relative;
+}
+#close {
+	width:10%;
+	position: relative;
+}
+.read-object {
+	display:inline-block;
+	padding: 2px;
+}
+
+
+
